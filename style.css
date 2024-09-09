@@ -1,122 +1,47 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <!-- HERO SECTION -->
+        <div id="hero">
+            <h1 id="hero-title">Discover Singapore</h1>
+            <h2 id="hero-desc">Experience a unique mix of cultures, flavors, and exciting adventures.</h2>
+        </div>
+        
+        <!-- ACTIVITIES SECTION -->
+        <div id="activities">
+            <h3 id="activities-title">Top three activities to do in Singapore</h3>
+            <div id="activities-block">
+                <div class="activity">
+                    <img src="images/tourist.jpg" alt="a view of Singapore's famous Gardens by the Bay at night ">
+                    <h4>Explore iconic tourist attractions</h4>
+                    <p>Discover iconic landmarks, modern architecture, and vibrant cultural sites.</p>
+                    </div>
+                <div class="activity">
+                    <img src="images/nature.jpg" alt="a pathway surrounded by greenery">
+                    <h4>Explore Singapore's natural beauty</h4>
+                    <p>Enjoy peaceful walks through lush greenery and immerse yourself in nature.</p>
+                    </div>
+                <div class="activity">
+                    <img src="images/food.jpg" alt="an image of Singaporean chicken rice">
+                    <h4>Savor world-class hawker food</h4>
+                    <p>Savor a wide variety of delicious and affordable local dishes in bustling food centers.</p>
+                    </div>
+            </div>
+        </div>
 
-*/
-
-body {
-    margin: 0;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-img {
-    width: 100px;
-}
-
-#hero {
-    background-image: url("images/singapore.jpg");
-    background-size: cover;
-    height: 343px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-#hero-title {
-    font-size: 32px;
-    font-weight: 700;
-    background-color: #d4a373;
-    padding: 10px 12px;
-    border-radius: 10px;
-}
-
-#hero-desc {
-    font-size: 18.72px;
-    background-color: #585B56;
-    width: 50%;
-    border-radius: 10px;
-    padding: 10px 15px;
-}
-
-#activities {
-    background-color: #FEFAE0;
-    height: 378px;
-    margin: auto auto;
-}
-
-#activities-title {
-    margin-top: 0px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-
-#activities-block {
-    display: flex;
-    justify-content: space-around;
-    max-width: 720px;
-    margin: auto;
-}
-
-.activity {
-    width: 220px;
-    padding: 20px;
-}
-
-.activity img {
-    border-radius: 50%;
-}
-
-.activity h4 {
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.activity p {
-    font-size: 16px;
-    font-weight: 400;
-}
-
-#guide {
-    background-color: #E7CCB1;
-    width: 400px;
-    margin: 40px auto;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 6px solid #8C5C2B;
-    border-radius: 10px;
-    
-}
-
-#guide img {
-    width: 180px;
-}
-
-#guide-col {
-    width: 50%;
-    color: #1D3557;   
-}
-
-#guide-col h3 {
-    font-size: 24px;
-    font-weight: 700;
-}
-
-#guide-col p {
-    font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
-}
-
-#guide-col h4 {
-    font-size: 16px;
-    font-weight: 700;
-}
+        <!-- GUIDE SECTION -->
+        <div id="guide">
+            <img src="images/guide.jpg">
+            <div id="guide-col">
+            <h3>Your guide</h3>
+            <p>"I have lived in Singapore for over 20 years, so I can show you all of its best parts and hidden secrets."</p>
+            <h4>John Doe</h4>
+            </div>
+            
+        </div>
+    </body>
+</html>
